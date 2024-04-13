@@ -14,7 +14,7 @@
     align-items: center;
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 5;
@@ -22,13 +22,14 @@
 
 .circle1-outer {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: linear-gradient(180deg, #ce722c 0%, rgba(0, 0, 0, 1) 70%);
     border-radius: 50%;
     /* animation: circleAnimation1 2s ease-in-out infinite; */
 }
+
 .circle1-inner {
     position: absolute;
     top: 50%;
@@ -43,7 +44,32 @@
     font-size: 3rem;
 }
 
+.home-headings {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
 
+.home-headings h1 {
+    width: 80vw;
+    font-family: Inter;
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 31.9px;
+    text-align: center;
+    margin: 8px 0px;
+}
+
+.home-headings h6 {
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22.99px;
+    text-align: center;
+}
 
 
 
@@ -55,18 +81,21 @@
         height: 140px;
         opacity: 0;
     }
+
     100% {
         width: 170px;
         height: 170px;
         opacity: 1;
     }
 }
+
 @keyframes circleAnimation44 {
     0% {
         width: 138px;
         height: 138px;
         opacity: 1;
     }
+
     100% {
         width: 167px;
         height: 167px;
@@ -80,66 +109,77 @@
         height: 202px;
         opacity: 0;
     }
+
     100% {
         width: 232px;
         height: 232px;
         opacity: 1;
     }
 }
+
 @keyframes circleAnimation33 {
     0% {
         width: 200px;
         height: 200px;
         opacity: 1;
     }
+
     100% {
         width: 229px;
         height: 229px;
         opacity: 1;
     }
 }
+
 @keyframes circleAnimation2 {
     0% {
         width: 258px;
         height: 258px;
         opacity: 0;
     }
+
     100% {
         width: 288px;
         height: 288px;
         opacity: 1;
     }
 }
+
 @keyframes circleAnimation22 {
     0% {
         width: 252px;
         height: 252px;
         opacity: 1;
     }
+
     100% {
         width: 285px;
         height: 285px;
         opacity: 1;
     }
 }
+
 @keyframes circleAnimation1 {
     0% {
         width: 324px;
         height: 324px;
         opacity: 0;
     }
+
     100% {
         width: 354px;
         height: 354px;
         opacity: 1;
     }
 }
+
 @keyframes circleAnimation11 {
     0% {
         width: 322px;
         height: 322px;
         opacity: 1;
     }
+
     100% {
         width: 351px;
         height: 351px;

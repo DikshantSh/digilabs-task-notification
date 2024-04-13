@@ -6,8 +6,6 @@ import "material-symbols";
 import Sendnotification from "./components/Sendnotification/Sendnotification";
 
 export default function Home() {
-  
-
   const renderCircle = (outer, inner, zIndex) => {
     return (
       <div
@@ -35,8 +33,10 @@ export default function Home() {
     <>
       <div className="home-screen">
         <Navbar />
-        <h1>Lorem, ipsum dolor.</h1>
-        <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+        <div className="home-headings">
+          <h1>DiGiLABS Notify</h1>
+          <h6>All notification at one place.</h6>
+        </div>
         {renderCircle("160px", "158px", "4")}
         {renderCircle("222px", "220px", "3")}
         {renderCircle("278px", "276px", "2")}
@@ -47,7 +47,6 @@ export default function Home() {
           </span>
         </div>
         <Sendnotification />
-        
       </div>
     </>
   );

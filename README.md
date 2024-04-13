@@ -1,10 +1,8 @@
-Sure, here's the updated README for your Next.js project with PWA setup:
-
----
-
-# Your Web App Name
+# DiGiLABS-Notify
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), featuring Progressive Web App (PWA) capabilities.
+
+The DiGiLABS-Notify app has been deployed on Vercel. You can access it [here](https://digilabs-notify.vercel.app/).
 
 ## Getting Started
 

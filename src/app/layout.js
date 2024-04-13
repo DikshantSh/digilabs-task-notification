@@ -11,7 +11,6 @@ export const metadata = {
     { rel: "apple-touch-icon", url: "icons/icon-128x128.png" },
     { rel: "icon", url: "icons/icon-128x128.png" },
   ],
-  themeColor: "#ffffff",
 };
 
 export default function RootLayout({ children }) {

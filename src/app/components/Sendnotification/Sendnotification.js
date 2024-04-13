@@ -41,9 +41,9 @@ function Sendnotification() {
       return;
     }
 
-    showNotification("New Notification", {
-      body: "This is a sample notification",
-      // icon: "/path/to/icon.png",
+    showNotification("DiGiLABS Notification", {
+      body: "You have been notified",
+      icon: "/icon.png",
     });
 
     console.log("Notification sent");
