@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Head from "next/head";
 import Navbar from "./components/Navbar/Navbar";
 import "./Home.css";
 import "material-symbols";
-import Sendnotification from "./components/Sendnotification";
+import Sendnotification from "./components/Sendnotification/Sendnotification";
 
 export default function Home() {
   
