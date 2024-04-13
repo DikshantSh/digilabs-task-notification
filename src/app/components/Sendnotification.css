@@ -1,0 +1,35 @@
+.send-notification {
+    z-index: 10;
+    width: 327px;
+    height: 42px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(0, 0, 0) -10.64%, #DF522B 51.94%, rgba(0, 0, 0, 1) 116.51%);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+}
+
+.send-notification-wrap {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 328.3px;
+    height: 43.8px;
+    background-color: rgb(0, 0, 0);
+    z-index: 9;
+    background: linear-gradient(90deg, rgb(0, 0, 0) -13.1%, #DE502C 53.99%, #C6802C 113.76%);
+    border-radius: 8px;
+}

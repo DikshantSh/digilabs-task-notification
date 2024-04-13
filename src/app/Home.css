@@ -1,0 +1,148 @@
+.home-screen {
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.bell-icon {
+    background: linear-gradient(360deg, rgba(157, 13, 61, 0) -23%, rgba(223, 81, 43, 0.76) 45.16%, #BF8C2C 103%);
+    color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+.circle1-outer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(180deg, #ce722c 0%, rgba(0, 0, 0, 1) 70%);
+    border-radius: 50%;
+    /* animation: circleAnimation1 2s ease-in-out infinite; */
+}
+.circle1-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    /* animation: circleAnimation2 2s ease-in-out infinite; */
+}
+
+.notification-icon {
+    font-size: 3rem;
+}
+
+
+
+
+
+
+/* animations */
+@keyframes circleAnimation4 {
+    0% {
+        width: 140px;
+        height: 140px;
+        opacity: 0;
+    }
+    100% {
+        width: 170px;
+        height: 170px;
+        opacity: 1;
+    }
+}
+@keyframes circleAnimation44 {
+    0% {
+        width: 138px;
+        height: 138px;
+        opacity: 1;
+    }
+    100% {
+        width: 167px;
+        height: 167px;
+        opacity: 1;
+    }
+}
+
+@keyframes circleAnimation3 {
+    0% {
+        width: 202px;
+        height: 202px;
+        opacity: 0;
+    }
+    100% {
+        width: 232px;
+        height: 232px;
+        opacity: 1;
+    }
+}
+@keyframes circleAnimation33 {
+    0% {
+        width: 200px;
+        height: 200px;
+        opacity: 1;
+    }
+    100% {
+        width: 229px;
+        height: 229px;
+        opacity: 1;
+    }
+}
+@keyframes circleAnimation2 {
+    0% {
+        width: 258px;
+        height: 258px;
+        opacity: 0;
+    }
+    100% {
+        width: 288px;
+        height: 288px;
+        opacity: 1;
+    }
+}
+@keyframes circleAnimation22 {
+    0% {
+        width: 252px;
+        height: 252px;
+        opacity: 1;
+    }
+    100% {
+        width: 285px;
+        height: 285px;
+        opacity: 1;
+    }
+}
+@keyframes circleAnimation1 {
+    0% {
+        width: 324px;
+        height: 324px;
+        opacity: 0;
+    }
+    100% {
+        width: 354px;
+        height: 354px;
+        opacity: 1;
+    }
+}
+@keyframes circleAnimation11 {
+    0% {
+        width: 322px;
+        height: 322px;
+        opacity: 1;
+    }
+    100% {
+        width: 351px;
+        height: 351px;
+        opacity: 1;
+    }
+}
